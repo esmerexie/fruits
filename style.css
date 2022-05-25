@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(119, 9, 9, 0.712)
+}
+
+h1 {
+    margin-left: 450px;
+    color:white;
+    border: solid black;
+    width: 8.5%; 
+}
+
+h3 {
+    merge-left: 400px;
+}
+
+.FruitPictures {
+    color: white;
+    columns: 400px;
+
+}
+
