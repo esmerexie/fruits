@@ -24,12 +24,45 @@
 
 <h3> The Fruits
 
+<section id="bottom-section">
   <ul class="FruitPictures">
-      <li><img src="https://placekitten.com/100/100" alt="fruit">Fruit 1</li>
-      <li><img src="https://placekitten.com/100/100" alt="fruit">Fruit 2</li>
-      <li><img src="https://placekitten.com/100/100" alt="fruit">Fruit 3</li>
+      <li class="fruit-section">
+        <img src="https://placekitten.com/100/100"> 
+        <p>Description</p>
+      </li>
+      <li class="fruit-section">
+        <img src="https://placekitten.com/100/100"
+        <p>Description</p>
+      </li>
+      <li class="fruit-section">
+        <img src="https://placekitten.com/100/100"
+      <p>Description</p>
+      </li>
   </ul>
+</section>
 </h3>
-<footer>&#169 <a href="https://github.com/esmerexie">Rexie Esmeralda</a></footer>
+Favorite fruit: <input id="Favorite_fruit">
+Least Favorite: <input id="Least_Favorite">
+<button id="say">mystery button</button>
+
+<hr>
+<div id="result"></div>
+
+<script>
+function mystery_button() {
+    var fname = document.getElementById('Favorite_fruit').vaule;
+    var lname = document.getElementById('Least_Favorite').vaule;
+
+    var html = 'wow that is so cool';
+
+    document.getElementById('result').innerHTML = html;
+}
+
+document.getElementById('say').addEventListener('click', mystery_button)
+</script>
+
+<footer>
+  &#169 <a href="https://github.com/esmerexie">Rexie Esmeralda</a>
+</footer>
 </body>
 </html>

@@ -1,16 +1,26 @@
 body {
-    background-color: rgba(119, 9, 9, 0.712)
+    background-color: rgba(119, 9, 9, 0.712);
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(rgb(38, 80, 197), green, rgb(76, 76, 170));
+    border: solid 3px black;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav{
+    background-color:rgb(238, 133, 64);
 }
 
 h1 {
     margin-left: 450px;
     color:white;
-    border: solid black;
-    width: 8.5%; 
 }
 
 h3 {
-    merge-left: 400px;
+    margin-left: 400px;
 }
 
 .FruitPictures {
@@ -19,3 +29,7 @@ h3 {
 
 }
 
+.FruitPictures {
+    list-style: none;
+    display: inline-block;
+}
