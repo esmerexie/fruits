@@ -47,3 +47,12 @@ function popUps() {
 }
 }
 
+function smileyFace() {
+
+    let sFace = prompt("from 1-3 how happy are you?");
+    for (let i = 1; i<= sFace; i++){
+        document.write("<img class='egg pic' src='eghg.png' />");
+    }
+}
+
+smileyFace()
