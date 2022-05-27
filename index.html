@@ -10,15 +10,19 @@
 </head>
 <body>
 <script src="app.js"></script>
+<script>popUps()</script>
   <header>
     <h1>Fruits</h1>
   </header>
     <nav class="droptext">
+      <script>helloUser()</script>
+      <script>userAge()</script>
         <li><a href="">Small Fruit</a></li>
         <li><a href="">Big Fruit</a></li>
         <li><a href="">Weird Fruit</a></li>
         <li><a href="https://tj-parker.github.io/fruits/">Timothy Parker</a></li>  
     </nav>
+
 <h2>Fruit of the year</h2>
   <img src="https://placekitten.com/100/100" alt="Fruits"</p>
 
@@ -41,10 +45,9 @@
   </ul>
 </section>
 </h3>
-Favorite fruit: <input id="Favorite_fruit">
-Least Favorite: <input id="Least_Favorite">
-<button id="say">mystery button</button>
-
+<input id="Favorite_fruit" placeholder="Favorite fruit?">
+<input id="Least_Favorite" placeholder="Least favorite?">
+<button id="say">Enter</button>
 <hr>
 <div id="result"></div>
 
@@ -52,12 +55,9 @@ Least Favorite: <input id="Least_Favorite">
 function mystery_button() {
     var fname = document.getElementById('Favorite_fruit').vaule;
     var lname = document.getElementById('Least_Favorite').vaule;
-
     var html = 'wow that is so cool';
-
     document.getElementById('result').innerHTML = html;
 }
-
 document.getElementById('say').addEventListener('click', mystery_button)
 </script>
 

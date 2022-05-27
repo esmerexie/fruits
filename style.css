@@ -11,6 +11,9 @@ header {
 }
 
 nav{
+    border: solid 3px black;
+    display: -ms-inline-grid
+    list-style-type: style type block;
     background-color:rgb(238, 133, 64);
 }
 
